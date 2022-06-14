@@ -16,7 +16,7 @@
   </header>
 
   <div id="content-wrap">
-      content test
+      content test 
   </div>
 
   <footer>
