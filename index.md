@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -9,9 +8,13 @@
 <script src="https://www.newmedu.com/common/js/owl.carousel.js"></script>
 <link>
 <style>
+container-lg {max-width: 100%;}
+.px-3 {padding: 0!important;}
+.markdown-body h1 {display: none;}
+.markdown-body ul, .markdown-body ol {margin: 0; padding: 0;}
 * {margin: 0; padding: 0; box-sizing: border-box;}
 body {font-family: 'Noto Sans KR', sans-serif;}
-ul {list-style: none;}
+ul {list-style: none; }
 a {text-decoration: none;}
 table {border-collapse: collapse; width: 100%;}
 table caption {width: 0; height: 0; font-size: 0;}
