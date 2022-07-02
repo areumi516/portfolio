@@ -8,10 +8,11 @@
 <script src="https://www.newmedu.com/common/js/owl.carousel.js"></script>
 <link>
 <style>
-container-lg {max-width: 100%;}
+.container-lg {max-width: 100%;}
 .px-3 {padding: 0!important;}
 .markdown-body h1 {display: none;}
 .markdown-body ul, .markdown-body ol {margin: 0; padding: 0;}
+.markdown-body li+li {margin: 0;}
 * {margin: 0; padding: 0; box-sizing: border-box;}
 body {font-family: 'Noto Sans KR', sans-serif;}
 ul {list-style: none; }
