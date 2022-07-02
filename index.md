@@ -9,7 +9,7 @@
 <link>
 <style>
 .container-lg {max-width: 100%;}
-.px-3 {padding: 0!important;}
+.px-3, .my-5 {margin: 0 !important; padding: 0 !important;}
 .markdown-body h1 {display: none;}
 .markdown-body ul, .markdown-body ol {margin: 0; padding: 0;}
 .markdown-body li+li {margin: 0;}
