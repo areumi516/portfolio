@@ -66,12 +66,13 @@ main {padding-top: 55px;}
 .section01, .section02 {height: 500px;}
 .section01 {background: #f2f2f2;}
 .section02 {}
+.section03 {background: #f0f0f0;}
 .section02-owl-wrapper {position: relative;}
 .section02-owl-wrapper .owl-dots {position: absolute; bottom: 10px; right: 60px;}
 .section04 {border-top: 1px solid #ccc;}
 .btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
 .btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #202020;}
-.btn_wh:hover p.btn_text {color: #fff; z-index: 1;}
+.btn_wh:hover p.btn_text {color: #ccc; z-index: 1;}
 .btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #202020;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
 .banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
@@ -216,21 +217,18 @@ $(window).on('load', function() {
             </div>
         </div>
     </div>
-    <div id="section03" class="section01 section_inner">
+    <div id="section03" class="section03 section_inner">
         <div class="section_cont">
-            <h3>메인페이지</h3>
+            <h3>모바일페이지</h3>
             <div class="cont_wrap">
               <div class="cont_w3">
-                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="https://house.newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
+                <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
               </div>
               <div class="cont_w3">
-                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
+                <a href="https://newmedu.com/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
               </div>
               <div class="cont_w3">
-                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.com &gt;</p><p class="btn_bg"></p></a>
+                <a href="http://www.newm.co.kr/new_mobile/main/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
               </div>
             </div>
         </div>
