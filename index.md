@@ -45,12 +45,12 @@ table caption {width: 0; height: 0; font-size: 0;}
 header, footer {min-width: 1100px;}
 header {position: relative;}
 .header_top {height: 50px;}
-.header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #ccc; z-index: 9;}
+.header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #202020; z-index: 9;}
 .header_menu_fixed {position: fixed; top: 0;}
 .ul_mainmenu {}
 .ul_mainmenu > li {float: left; display: inline-block; border-right: 1px solid #bbb;}
 .ul_mainmenu > li:first-child {border-left: 1px solid #bbb;}
-.ul_mainmenu > li > a {display: inline-block; height: 53px; padding: 15px 30px; line-height: 1; color: #222;}
+.ul_mainmenu > li > a {display: inline-block; height: 53px; padding: 15px 30px; line-height: 1; color: #f2f2f2;}
 .ul_mainmenu > li > a:hover {background: #fff;}
 .ul_mainmenu li > a:after {display:block; width: 100%; padding-bottom: 4px; content: ''; border-bottom: solid 2px #114de3; transform: scaleX(0); transition: transform 250ms ease-in-out;}
 .ul_mainmenu li > a:hover:after, .ul_mainmenu li > a:focus:after {transform: scaleX(1);}
@@ -103,7 +103,7 @@ $(document).ready( function() {
         items: 4,
         stagePadding: 0,
         loop: true,
-        margin: 0,
+        margin: 25,
         nav: false,
         navgation: true,
         pagination: true,
@@ -195,7 +195,7 @@ $(window).on('load', function() {
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content08" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event07.jpg" alt="" /></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content07" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event08.jpg" alt="" /></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content05" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event09.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content10" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event15.jpg" alt="" /></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content15" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event10.jpg" alt="" /></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content09" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event11.jpg" alt="" /></a></div>
                 </div>
             </div>
@@ -206,8 +206,11 @@ $(window).on('load', function() {
             <div class="tab_container tab_container_sub">
             <div class="tabs">
                 <ul>
-                    <li class="sub_tab1 active"><a href="javascript:;" title="sub_tab1">sub_tab1</a></li>
-                    <li class="sub_tab2"><a href="javascript:;" title="sub_tab2">sub_tab2</a></li>
+                    <li class="sub_tab1 active"><a href="javascript:;" title="sub_tab1">메인페이지</a></li>
+                    <li class="sub_tab2"><a href="javascript:;" title="sub_tab2">서브페이지</a></li>
+                    <li class="sub_tab3"><a href="javascript:;" title="sub_tab3">마이페이지</a></li>
+                    <li class="sub_tab4"><a href="javascript:;" title="sub_tab4">상품페이지</a></li>
+                    <li class="sub_tab5"><a href="javascript:;" title="sub_tab5">결제페이지</a></li>
                 </ul>
             </div>
             <div id="sub_tab1" class="tab_content">
@@ -215,6 +218,15 @@ $(window).on('load', function() {
             </div>
             <div id="sub_tab2" class="tab_content">
                 sub_tab2<br />sub_tab2<br />
+            </div>
+            <div id="sub_tab3" class="tab_content">
+                sub_tab3
+            </div>
+            <div id="sub_tab4" class="tab_content">
+                sub_tab4
+            </div>
+            <div id="sub_tab5" class="tab_content">
+                sub_tab5
             </div>
         </div>
         </div>
