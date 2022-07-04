@@ -156,34 +156,34 @@ $(window).on('load', function() {
     <div class="header_menu">
         <div class="section_cont">
             <ul class="ul_mainmenu">
-                <li><a href="#">Main page</a></li>
-                <li><a href="#">Event page</a></li>
+                <li><a href="#section01">Main page</a></li>
+                <li><a href="#section02">Event page</a></li>
                 <li><a href="#">Mobile page</a></li>
-                <li><a href="#">Page Screenshot</a></li>
+                <li><a href="#section03">Page Screenshot</a></li>
             </ul>
         </div>
     </div>
 </header>
 <main>
-    <div class="main_container">
+    <!-- <div class="main_container">
         <div class="owl-wrapper main-owl-wrapper">
             <div class="main-carousel owl-carousel owl-theme">
               <div class="item">01</div>
               <div class="item">02</div>
             </div>
         </div>
-    </div>
-    <div class="section01 section_inner">
+    </div> -->
+    <div id="section01" class="section01 section_inner">
         <div class="section_cont">
             <h3>메인페이지</h3>
             <div class="cont_wrap">
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
+                <a href="https://house.newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="#" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
+                <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
@@ -196,7 +196,7 @@ $(window).on('load', function() {
             </div>
         </div>
     </div>
-    <div class="section02 section_inner">
+    <div id="section02" class="section02 section_inner">
         <div class="section_cont">
             <h3>이벤트페이지</h3>
             <div class="owl-wrapper section02-owl-wrapper">
@@ -215,7 +215,7 @@ $(window).on('load', function() {
             </div>
         </div>
     </div>
-    <div class="section03 section_inner">
+    <div id="section03" class="section03 section_inner">
         <div class="section_cont">
             <div class="tab_container tab_container_sub">
             <div class="tabs">
@@ -233,16 +233,24 @@ $(window).on('load', function() {
                 </div>
             </div>
             <div id="sub_tab2" class="tab_content">
-                sub_tab2<br />sub_tab2<br />
+                <div class="tab_content_wrap">
+                  sub_tab2
+                </div>
             </div>
             <div id="sub_tab3" class="tab_content">
-                sub_tab3
+                <div class="tab_content_wrap">
+                  sub_tab3
+                </div>
             </div>
             <div id="sub_tab4" class="tab_content">
-                sub_tab4
+                <div class="tab_content_wrap">
+                  sub_tab4
+                </div>
             </div>
             <div id="sub_tab5" class="tab_content">
-                sub_tab5
+                <div class="tab_content_wrap">
+                  sub_tab5
+                </div>
             </div>
         </div>
         </div>
@@ -250,10 +258,10 @@ $(window).on('load', function() {
     <div class="banner_right">
         <div class="banner_wrap">
             <ul class="ul_rmenu">
-                <li><a href="#">rmenu01</a></li>
-                <li><a href="#">rmenu02</a></li>
-                <li><a href="#">rmenu03</a></li>
-                <li><a href="#">rmenu04</a></li>
+                <li><a href="https://house.newmedu.com/" target="_blank">houseedu</a></li>
+                <li><a href="https://newmedu.com/" target="_blank">newmedu</a></li>
+                <li><a href="http://www.gosischool.or.kr/" target="_blank">gosischool</a></li>
+                <li><a href="http://www.newm.co.kr/new2/main/index.php" target="_blank">newm</a></li>
             </ul>
         </div>
     </div>
