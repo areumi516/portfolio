@@ -67,7 +67,9 @@ main {padding-top: 55px;}
 .section02 {}
 .section03 {background: #f0f0f0;}
 .section02-owl-wrapper {position: relative;}
-.section02-owl-wrapper .owl-dots {position: absolute; bottom: 10px; right: 60px;}
+.section02-owl-wrapper .owl-dots {text-align: center;}
+.section02-owl-wrapper .owl-theme .owl-dots .owl-dot span {display: block; width: 8px; height: 8px; margin: 0 0 0 10px; background: #b8b8b8; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 0;}
+.section02-owl-wrapper .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #114de3;}
 .section04 {border-top: 1px solid #ccc;}
 .btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
 .btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #202020;}
