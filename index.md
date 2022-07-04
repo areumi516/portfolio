@@ -257,27 +257,34 @@ $(window).on('load', function() {
             </div>
             <div id="sub_tab1" class="tab_content">
                 <div class="tab_content_wrap">
-                  sub_tab1
+                  <img src="https://user-images.githubusercontent.com/107483293/177183550-eb29b34f-898f-46a7-b069-25d88cc7ad1c.jpg" alt="">
                 </div>
             </div>
             <div id="sub_tab2" class="tab_content">
                 <div class="tab_content_wrap">
-                  sub_tab2
+                  <!-- <img src="https://user-images.githubusercontent.com/107483293/177182697-39ff317b-3ae5-4907-93e5-2ec6ab6aeeff.jpg" alt=""> -->
+                  <img src="https://user-images.githubusercontent.com/107483293/177184420-90fe2ed7-3e74-46c3-bdf0-e5af464a7f63.jpg" alt="">
                 </div>
             </div>
             <div id="sub_tab3" class="tab_content">
                 <div class="tab_content_wrap">
-                  sub_tab3
+                  <img src="https://user-images.githubusercontent.com/107483293/177185203-7aab5c5d-2b67-4044-aa99-ed345a65e4f9.jpg" alt="" />
                 </div>
             </div>
             <div id="sub_tab4" class="tab_content">
                 <div class="tab_content_wrap">
-                  sub_tab4
+                  <div class="cont_wrap">
+                      <div class="cont_w2"><img src="https://user-images.githubusercontent.com/107483293/177181900-a1c69db6-ada8-48dc-84f4-cdd70bc7cf71.jpg" alt=""></div>
+                      <div class="cont_w2"><img src="https://user-images.githubusercontent.com/107483293/177181937-4fca0cb6-2347-49de-9417-2751b15032e9.jpg" alt=""></div>
+                  </div>
                 </div>
             </div>
             <div id="sub_tab5" class="tab_content">
                 <div class="tab_content_wrap">
-                  sub_tab5
+                  <div class="cont_wrap">
+                      <div class="cont_w2"><img src="https://user-images.githubusercontent.com/107483293/177184971-5ce7efad-c05a-4480-bc53-f4a4212b5a17.jpg" alt=""></div>
+                      <div class="cont_w2"><img src="https://user-images.githubusercontent.com/107483293/177185024-73fb5e94-7688-4dff-85be-7da2a655f3e6.jpg" alt=""></div>
+                  </div>
                 </div>
             </div>
         </div>
