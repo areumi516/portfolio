@@ -45,6 +45,7 @@ table caption {width: 0; height: 0; font-size: 0;}
 header, footer {min-width: 1100px;}
 header {position: relative;}
 .header_top {height: 50px;}
+.header_top h1 {display: inline-block; width: 40px; height: 40px; margin: 7px 10px; text-align: center;background: #202020; color: #fff; border-radius: 100%;}
 .header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #202020; z-index: 9;}
 .header_menu_fixed {position: fixed; top: 0;}
 .ul_mainmenu {}
@@ -63,11 +64,11 @@ main {padding-top: 55px;}
 .section02-owl-wrapper {position: relative;}
 .section02-owl-wrapper .owl-dots {position: absolute; bottom: 10px; right: 60px;}
 .section03 {border-top: 1px solid #ccc;}
-.btn_wh {position: relative; display: inline-block; width: 200px; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
+.btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
 .btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
 .btn_wh:hover p.btn_text {color: #222; z-index: 1;}
 .btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #ccc;}
- @keyframes roll_img{0%{width: 0}100%,to{width: 200px}}
+ @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
 .banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
 .banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px;}
@@ -146,7 +147,7 @@ $(window).on('load', function() {
 <body>
 <header>
     <div class="header_top">
-        header_top
+        <h1></h1>
     </div>
     <div class="header_menu">
         <div class="section_cont">
