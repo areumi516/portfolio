@@ -32,10 +32,11 @@ table caption {width: 0; height: 0; font-size: 0;}
 .cont_w2:first-child, .cont_w3:first-child, .cont_w4:first-child {margin-left: 0;}
 .tab_container .tab_content {width:100%;}
 .tab_content {display: none;}
+.tab_content_wrap {height: 350px; margin-top: -10px; padding-top: 10px; border: 1px solid #ccc; overflow: auto;}
 .tabs ul {display: inline-block; width: 100%;}
 .tabs li {float: left; width: 20%; text-align: center; border: 1px solid #aaa; background: #f8f8f8;}
 .tabs li:nth-child(1) {border-right: none;}
-.tabs li a {display: block; width: 100%; line-height: 2; color: #333;}
+.tabs li a {display: block; width: 100%; font-size: 14px; line-height: 2.8; color: #333;}
 .tabs li.active {border-bottom-color: #fff; background: #fff;}
 .tabs li.active a {font-weight: bold;}
 .owl-nav, .owl-dots {display: block; text-align: center;} 
@@ -43,6 +44,9 @@ table caption {width: 0; height: 0; font-size: 0;}
 .owl-dots .owl-dot {display: inline-block;} 
 .owl-controls .owl-page span.owl-numbers {display: block; width: auto; height: auto; font-size: 20px;}    
 header, footer {min-width: 1100px;}
+footer {text-align: center;}
+footer p, footer span {font-size: 12px; color: #606060;}
+footer span {margin-left: 10px;}
 header {position: relative;}
 .header_top {height: 50px;}
 .header_top h1 {display: inline-block; width: 40px; height: 40px; margin: 7px 10px; text-align: center;background: #202020; color: #fff; border-radius: 100%;}
@@ -152,11 +156,10 @@ $(window).on('load', function() {
     <div class="header_menu">
         <div class="section_cont">
             <ul class="ul_mainmenu">
-                <li><a href="#">menu01</a></li>
-                <li><a href="#">menu02</a></li>
-                <li><a href="#">menu03</a></li>
-                <li><a href="#">menu04</a></li>
-                <li><a href="#">menu05</a></li>
+                <li><a href="#">Main page</a></li>
+                <li><a href="#">Event page</a></li>
+                <li><a href="#">Mobile page</a></li>
+                <li><a href="#">Page Screenshot</a></li>
             </ul>
         </div>
     </div>
@@ -172,36 +175,30 @@ $(window).on('load', function() {
     </div>
     <div class="section01 section_inner">
         <div class="section_cont">
-            <h3>section01</h3>
+            <h3>메인페이지</h3>
             <div class="cont_wrap">
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+                <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+                <a href="#" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+                <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
-                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+                <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.com &gt;</p><p class="btn_bg"></p></a>
               </div>
             </div>
         </div>
     </div>
     <div class="section02 section_inner">
         <div class="section_cont">
-            <h3>section02</h3>
-<!--
-            <div class="cont_w4">cont_w4</div>
-            <div class="cont_w4">cont_w4</div>
-            <div class="cont_w4">cont_w4</div>
-            <div class="cont_w4">cont_w4</div>
--->
+            <h3>이벤트페이지</h3>
             <div class="owl-wrapper section02-owl-wrapper">
                 <div class="section02-carousel owl-carousel owl-theme">
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" /></a></div>
@@ -231,7 +228,9 @@ $(window).on('load', function() {
                 </ul>
             </div>
             <div id="sub_tab1" class="tab_content">
-                sub_tab1<br />sub_tab1<br />sub_tab1<br />
+                <div class="tab_content_wrap">
+                  sub_tab1
+                </div>
             </div>
             <div id="sub_tab2" class="tab_content">
                 sub_tab2<br />sub_tab2<br />
@@ -259,6 +258,10 @@ $(window).on('load', function() {
         </div>
     </div>
 </main>
-<footer>footer</footer>
+<footer>
+  <div class="section_cont section_inner">
+    <p>Lee Ahreum<span>areumi516@gmail.com</span></p>
+  </div>
+</footer>
 </body>
 </html>
