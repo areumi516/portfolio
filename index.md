@@ -51,7 +51,7 @@ footer span {margin-left: 10px; padding-left: 10px; border-left: 1px solid #aaa;
 header {position: relative;}
 .header_top {height: 50px;}
 .header_top h1 {display: inline-block; width: 40px; height: 40px; margin: 7px 10px; font-weight: bold; text-align: center;background: #202020; color: #fff; border-radius: 100%;}
-.header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #202020; z-index: 9;}
+.header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 2px solid #114de3; background: #202020; z-index: 9;}
 .header_menu_fixed {position: fixed; top: 0;}
 .ul_mainmenu {}
 .ul_mainmenu > li {float: left; display: inline-block; border-right: 1px solid #555;}
