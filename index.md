@@ -45,8 +45,9 @@ table caption {width: 0; height: 0; font-size: 0;}
 .owl-controls .owl-page span.owl-numbers {display: block; width: auto; height: auto; font-size: 20px;}    
 header, footer {min-width: 1100px;}
 footer {text-align: center;}
+footer .section_inner {padding: 50px 0;}
 footer p, footer span {font-size: 12px; color: #606060;}
-footer span {margin-left: 10px;}
+footer span {margin-left: 10px; padding-left: 10px; border-left: 1px solid #aaa;}
 header {position: relative;}
 .header_top {height: 50px;}
 .header_top h1 {display: inline-block; width: 40px; height: 40px; margin: 7px 10px; text-align: center;background: #202020; color: #fff; border-radius: 100%;}
@@ -67,11 +68,11 @@ main {padding-top: 55px;}
 .section02 {}
 .section02-owl-wrapper {position: relative;}
 .section02-owl-wrapper .owl-dots {position: absolute; bottom: 10px; right: 60px;}
-.section03 {border-top: 1px solid #ccc;}
+.section04 {border-top: 1px solid #ccc;}
 .btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
-.btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
-.btn_wh:hover p.btn_text {color: #222; z-index: 1;}
-.btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #ccc;}
+.btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #202020;}
+.btn_wh:hover p.btn_text {color: #fff; z-index: 1;}
+.btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #202020;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
 .banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
@@ -158,8 +159,8 @@ $(window).on('load', function() {
             <ul class="ul_mainmenu">
                 <li><a href="#section01">Main page</a></li>
                 <li><a href="#section02">Event page</a></li>
-                <li><a href="#">Mobile page</a></li>
-                <li><a href="#section03">Page Screenshot</a></li>
+                <li><a href="#section03">Mobile page</a></li>
+                <li><a href="#section04">Page Screenshot</a></li>
             </ul>
         </div>
     </div>
@@ -215,7 +216,26 @@ $(window).on('load', function() {
             </div>
         </div>
     </div>
-    <div id="section03" class="section03 section_inner">
+    <div id="section03" class="section01 section_inner">
+        <div class="section_cont">
+            <h3>메인페이지</h3>
+            <div class="cont_wrap">
+              <div class="cont_w3">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="https://house.newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w3">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w3">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.com &gt;</p><p class="btn_bg"></p></a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div id="section04" class="section04 section_inner">
         <div class="section_cont">
             <div class="tab_container tab_container_sub">
             <div class="tabs">
