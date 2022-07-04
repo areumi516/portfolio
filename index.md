@@ -32,7 +32,7 @@ table caption {width: 0; height: 0; font-size: 0;}
 .cont_w2:first-child, .cont_w3:first-child, .cont_w4:first-child {margin-left: 0;}
 .tab_container .tab_content {width:100%;}
 .tab_content {display: none;}
-.tab_content_wrap {height: 350px; margin-top: -10px; padding-top: 10px; border: 1px solid #ccc; overflow: auto;}
+.tab_content_wrap {height: 500px; margin-top: -7px; padding-top: 10px; text-align: center; border: 1px solid #aaa; overflow: auto;}
 .tabs ul {display: inline-block; width: 100%;}
 .tabs li {float: left; width: 20%; text-align: center; border: 1px solid #aaa; background: #f8f8f8;}
 .tabs li:nth-child(1) {border-right: none;}
