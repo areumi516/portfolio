@@ -70,6 +70,10 @@ main {padding-top: 55px;}
 .section02-owl-wrapper .owl-dots {text-align: center;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot span {display: block; width: 8px; height: 8px; margin: 0 0 0 10px; background: #b8b8b8; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 0;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #114de3;}
+.mobile_wrap {height: 400px; overflow-y: auto; border: 1px solid #202020;}
+.mobile_wrap::-webkit-scrollbar {width:5px;}
+.mobile_wrap::-webkit-scrollbar-thumb {background: #5d5d5d;}
+.mobile_wrap::-webkit-scrollbar-track {background: #222;}
 .section04 {border-top: 1px solid #ccc;}
 .btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
 .btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #202020;}
@@ -96,7 +100,6 @@ $(document).ready( function() {
         loop: true,
         margin: 0,
         nav: false,
-//        navText:['<span class="ic_slider_prev02"></span>', '<span class="ic_slider_next02"></span>'],
         navgation: true,
         pagination: false,
         paginationNumbers: false,
@@ -131,7 +134,7 @@ $(document).ready( function() {
     });
 });
 $(window).scroll( function() {
-      if($(document).scrollTop() > $('.main_container').offset().top + 300) {
+      if($(document).scrollTop() > $('.section01').offset().top + 300) {
         $('.banner_right').addClass('banner_right_fixed');
       }
       else {
@@ -223,13 +226,20 @@ $(window).on('load', function() {
             <h3>모바일페이지</h3>
             <div class="cont_wrap">
               <div class="cont_w3">
-                <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
+                  <div class="mobile_wrap">
+                    <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176652-346a9dff-fd31-4a8a-8e0c-f66d22535c8e.jpg" alt="" /></p></a>
+                  </div>
+                </div>
               </div>
               <div class="cont_w3">
-                <a href="https://newmedu.com/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
+                <div class="mobile_wrap">
+                  <a href="https://newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176782-9b466233-3d64-4a38-a00c-2decc3febb1c.jpg" alt="" /></p></a>
+                </div>
               </div>
               <div class="cont_w3">
-                <a href="http://www.newm.co.kr/new_mobile/main/" target="_blank" ><p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p></a>
+                <div class="mobile_wrap">
+                  <a href="http://www.newm.co.kr/new_mobile/main/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176872-7d4b4ae6-9beb-4a09-97b5-39ffbd27a325.jpg" alt="" /></p></a>
+                </div>
               </div>
             </div>
         </div>
