@@ -33,7 +33,7 @@ table caption {width: 0; height: 0; font-size: 0;}
 .tab_container .tab_content {width:100%;}
 .tab_content {display: none;}
 .tabs ul {display: inline-block; width: 100%;}
-.tabs li {float: left; width: 50%; text-align: center; border: 1px solid #aaa; background: #f8f8f8;}
+.tabs li {float: left; width: 20%; text-align: center; border: 1px solid #aaa; background: #f8f8f8;}
 .tabs li:nth-child(1) {border-right: none;}
 .tabs li a {display: block; width: 100%; line-height: 2; color: #333;}
 .tabs li.active {border-bottom-color: #fff; background: #fff;}
@@ -48,11 +48,11 @@ header {position: relative;}
 .header_menu {position: absolute; top: 50px; left: 0; display: inline-block; width: 100%; height: 55px; border-top: 1px solid #bbb; border-bottom: 1px solid #bbb; background: #202020; z-index: 9;}
 .header_menu_fixed {position: fixed; top: 0;}
 .ul_mainmenu {}
-.ul_mainmenu > li {float: left; display: inline-block; border-right: 1px solid #bbb;}
-.ul_mainmenu > li:first-child {border-left: 1px solid #bbb;}
-.ul_mainmenu > li > a {display: inline-block; height: 53px; padding: 15px 30px; line-height: 1; color: #f2f2f2;}
-.ul_mainmenu > li > a:hover {background: #fff;}
-.ul_mainmenu li > a:after {display:block; width: 100%; padding-bottom: 4px; content: ''; border-bottom: solid 2px #114de3; transform: scaleX(0); transition: transform 250ms ease-in-out;}
+.ul_mainmenu > li {float: left; display: inline-block; border-right: 1px solid #555;}
+.ul_mainmenu > li:first-child {border-left: 1px solid #555;}
+.ul_mainmenu > li > a {display: inline-block; height: 53px; padding: 15px 30px; line-height: 1; color: #f2f2f2; text-decoration: none;}
+.ul_mainmenu > li > a:hover {background: #114de3;}
+.ul_mainmenu li > a:after {display:block; width: 100%; padding-bottom: 4px; content: ''; border-bottom: solid 2px #eee; transform: scaleX(0); transition: transform 250ms ease-in-out;}
 .ul_mainmenu li > a:hover:after, .ul_mainmenu li > a:focus:after {transform: scaleX(1);}
 footer {background: #ddd;}
 main {padding-top: 55px;}
@@ -68,7 +68,7 @@ main {padding-top: 55px;}
 .btn_wh:hover p.btn_text {color: #222; z-index: 1;}
 .btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #ccc;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 200px}}
-.banner_right {position: absolute; right: calc(50% - 730px); top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
+.banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
 .banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px;}
 .ul_rmenu > li {border-top: 1px dotted #ccc;}
@@ -100,10 +100,10 @@ $(document).ready( function() {
         autoplayTimeout: 5000,
         autoplaySpeed: 800,
         center: true,
-        items: 4,
+        items: 3,
         stagePadding: 0,
         loop: true,
-        margin: 25,
+        margin: 10,
         nav: false,
         navgation: true,
         pagination: true,
