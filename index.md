@@ -172,8 +172,24 @@ $(window).on('load', function() {
     <div class="section01 section_inner">
         <div class="section_cont">
             <h3>section01</h3>
-            section01<br />
-            <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+            <div class="cont_wrap">
+              <div class="cont_w4">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
+                <p><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></p>
+                <a href="#" class="btn_wh"><p class="btn_text">more</p><p class="btn_bg"></p></a>
+              </div>
+            </div>
         </div>
     </div>
     <div class="section02 section_inner">
