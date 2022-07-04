@@ -63,7 +63,6 @@ header {position: relative;}
 footer {background: #ddd;}
 main {padding-top: 55px;}
 .main_container {height: 300px;}
-.section01, .section02 {height: 500px;}
 .section01 {background: #f2f2f2;}
 .section02 {}
 .section03 {background: #f0f0f0;}
