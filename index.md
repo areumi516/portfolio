@@ -72,15 +72,15 @@ main {padding-top: 55px;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #114de3;}
 .mobile_wrap {height: 400px; overflow-y: auto; border: 1px solid #202020;}
 .mobile_wrap::-webkit-scrollbar {width:5px;}
-.mobile_wrap::-webkit-scrollbar-thumb {background: #5d5d5d;}
-.mobile_wrap::-webkit-scrollbar-track {background: #222;}
+.mobile_wrap::-webkit-scrollbar-thumb {background: #114de3;}
+.mobile_wrap::-webkit-scrollbar-track {background: #5d5d5d;}
 .section04 {border-top: 1px solid #ccc;}
 .btn_wh {position: relative; display: inline-block; width: 100%; height: 40px; line-height: 36px; text-align: center; background: #fff; border: 1px solid #ccc; border-radius: 2px;}
 .btn_wh > p {position: absolute; top: 0; left: 0; width: 100%; height: 100%; color: #202020;}
 .btn_wh:hover p.btn_text {color: #ccc; z-index: 1;}
 .btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #202020;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
-.banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
+.banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 600px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
 .banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px;}
 .ul_rmenu > li {border-top: 1px dotted #ccc;}
@@ -134,7 +134,7 @@ $(document).ready( function() {
     });
 });
 $(window).scroll( function() {
-      if($(document).scrollTop() > $('.section01').offset().top + 300) {
+      if($(document).scrollTop() > $('.section01').offset().top + 500) {
         $('.banner_right').addClass('banner_right_fixed');
       }
       else {
@@ -230,7 +230,6 @@ $(window).on('load', function() {
                     <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176652-346a9dff-fd31-4a8a-8e0c-f66d22535c8e.jpg" alt="" /></p></a>
                   </div>
                 </div>
-              </div>
               <div class="cont_w3">
                 <div class="mobile_wrap">
                   <a href="https://newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176782-9b466233-3d64-4a38-a00c-2decc3febb1c.jpg" alt="" /></p></a>
