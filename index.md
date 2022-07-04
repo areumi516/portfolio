@@ -80,7 +80,7 @@ main {padding-top: 55px;}
 .btn_wh:hover p.btn_text {color: #ccc; z-index: 1;}
 .btn_wh:hover p.btn_bg {animation: roll_img 1s; animation-fill-mode: both; width: 0; background: #202020;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
-.banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 600px; z-index: 9;}
+.banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
 .banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px;}
 .ul_rmenu > li {border-top: 1px dotted #ccc;}
@@ -134,7 +134,7 @@ $(document).ready( function() {
     });
 });
 $(window).scroll( function() {
-      if($(document).scrollTop() > $('.section01').offset().top + 500) {
+      if($(document).scrollTop() > $('.section01').offset().top + 300) {
         $('.banner_right').addClass('banner_right_fixed');
       }
       else {
