@@ -73,7 +73,7 @@ main {padding-top: 55px;}
 .section02-owl-wrapper .owl-dots {text-align: center;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot span {display: block; width: 8px; height: 8px; margin: 0 0 0 5px; background: #b8b8b8; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 100%;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {background: #114de3;}
-.mobile_wrap {height: 400px; overflow-y: auto; border: 1px solid #202020;}
+.mobile_wrap {height: 400px; overflow-y: auto; border: 1px solid #202020; border-radius: 4px;}
 .mobile_wrap::-webkit-scrollbar {width:5px;}
 .mobile_wrap::-webkit-scrollbar-thumb {background: #114de3;}
 .mobile_wrap::-webkit-scrollbar-track {background: #5d5d5d;}
