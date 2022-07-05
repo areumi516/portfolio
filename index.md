@@ -33,8 +33,9 @@ table caption {width: 0; height: 0; font-size: 0;}
 .tab_container .tab_content {width:100%;}
 .tab_content {display: none;}
 .tab_content_wrap {height: 500px; margin-top: -7px; padding-top: 10px; text-align: center; border: 1px solid #aaa; overflow: auto;}
-.tabs ul {display: inline-block; width: 100%;}
-.tabs li {float: left; width: 20%; text-align: center; border: 1px solid #aaa; background: #f8f8f8;}
+.tab_container_sub {border-top: 3px solid #5d5d5d;}
+.tabs ul {display: inline-block; width: 100%; margin-top: -2px;}
+.tabs li {float: left; width: 20%; text-align: center; border: 1px solid #aaa; border-top-color: #5d5d5d; background: #f8f8f8;}
 .tabs li:nth-child(1) {border-right: none;}
 .tabs li a {display: block; width: 100%; font-size: 14px; line-height: 2.8; color: #333;}
 .tabs li.active {border-bottom-color: #fff; background: #fff;}
@@ -84,10 +85,11 @@ main {padding-top: 55px;}
  @keyframes roll_img{0%{width: 0}100%,to{width: 100%}}
 .banner_right {position: absolute; right: 20px; top: 85px; width: 130px; margin-top: 400px; z-index: 9;}
 .banner_right_fixed {position: fixed; margin-top: 0;}    
-.banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px;}
+.banner_wrap { border: 1px solid #ccc; background: #fff; border-radius: 10px; opacity: 0.7;}
 .ul_rmenu > li {border-top: 1px dotted #ccc;}
 .ul_rmenu > li:first-child {border-top: none;}
 .ul_rmenu > li > a {display: inline-block; width: 100%; line-height: 2; text-align: center; color: #333;}
+.ul_rmenu > li > a:hover {opacity: 1;}
 </style>
 <script>
 $(document).ready( function() {
@@ -296,6 +298,7 @@ $(window).on('load', function() {
         <div class="banner_wrap">
             <ul class="ul_rmenu">
                 <li><a href="https://house.newmedu.com/" target="_blank">houseedu</a></li>
+                <li><a href="https://elec.newmedu.com/" target="_blank">elecedu</a></li>
                 <li><a href="https://newmedu.com/" target="_blank">newmedu</a></li>
                 <li><a href="http://www.gosischool.or.kr/" target="_blank">gosischool</a></li>
                 <li><a href="http://www.newm.co.kr/new2/main/index.php" target="_blank">newm</a></li>
