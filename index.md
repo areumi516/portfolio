@@ -67,6 +67,7 @@ main {padding-top: 55px;}
 .section02 {}
 .section03 {background: #f0f0f0;}
 .section03 .cont_w3 {width: 30%; margin-left: 4%;}
+.section03 .cont_w3:first-child {margin-left: 0;}
 .section02-owl-wrapper {position: relative;}
 .section02-owl-wrapper .owl-dots {text-align: center;}
 .section02-owl-wrapper .owl-theme .owl-dots .owl-dot span {display: block; width: 8px; height: 8px; margin: 0 0 0 5px; background: #b8b8b8; -webkit-backface-visibility: visible; transition: opacity .2s ease; border-radius: 100%;}
