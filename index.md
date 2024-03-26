@@ -191,33 +191,33 @@ $(window).on('load', function() {
             <h3>메인페이지</h3>
             <div class="cont_wrap">
               <div class="cont_w4">
-                <p><img src="https://user-images.githubusercontent.com/107483293/177173070-1f763c83-db1d-4aa4-a5e0-a12786abc58e.jpg" alt="" /></p>
+                <p><img src="https://user-images.githubusercontent.com/107483293/177173070-1f763c83-db1d-4aa4-a5e0-a12786abc58e.jpg" alt="" ></p>
                 <a href="https://house.newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://user-images.githubusercontent.com/107483293/177172943-0322ea21-61c3-4ec9-b842-3884a1c6488e.jpg" alt="" /></p>
+                <p><img src="https://user-images.githubusercontent.com/107483293/177172943-0322ea21-61c3-4ec9-b842-3884a1c6488e.jpg" alt="" ></p>
                 <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/4fb7f617-0303-49f6-a0c8-7b72e5ec6696" alt="" /></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/4fb7f617-0303-49f6-a0c8-7b72e5ec6696" alt="" ></p>
                 <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" /></p>
+                <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" ></p>
                 <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.co.kr &gt;</p><p class="btn_bg"></p></a>
               </div>
             </div>
             <div class="cont_wrap">
               <div class="cont_w4">
-                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/1008c418-ea05-4d0f-9a7a-4443086f9b08" alt="" /></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/1008c418-ea05-4d0f-9a7a-4443086f9b08" alt="" ></p>
                 <a href="https://www.mdca.co.kr/lec/home/cyberlec/" target="_blank" class="btn_wh"><p class="btn_text">mdca.co.kr &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/63bf1350-6455-4b76-bc3d-3966d32ad5e2" alt="" /></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/63bf1350-6455-4b76-bc3d-3966d32ad5e2" alt="" ></p>
                 <a href="https://www.helphouse.biz/" target="_blank" class="btn_wh"><p class="btn_text">helphouse.biz &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/2614a3cb-a5e0-438d-91c8-4253c0ec6e6e" alt="" /></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/2614a3cb-a5e0-438d-91c8-4253c0ec6e6e" alt="" ></p>
                 <a href="javascript:;" class="btn_wh"><p class="btn_text">gosischool_new &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
@@ -230,17 +230,17 @@ $(window).on('load', function() {
             <h3>이벤트페이지</h3>
             <div class="owl-wrapper section02-owl-wrapper">
                 <div class="section02-carousel owl-carousel owl-theme">
-                  <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" /></a></div>
-                  <div class="item"><a href="https://house.newmedu.com/lanpage/content04" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" /></a></div>
-                  <div class="item"><a href="https://house.newmedu.com/lanpage/content01" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event03.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content22" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan14.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content04" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan04.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content08" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan08.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content07" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan07.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content05" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan05.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content15" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan15.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content09" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan09.jpg" alt="" /></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content33" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan33.jpg" alt="" /></a></div>
+                  <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" ></a></div>
+                  <div class="item"><a href="https://house.newmedu.com/lanpage/content04" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" ></a></div>
+                  <div class="item"><a href="https://house.newmedu.com/lanpage/content01" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event03.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content22" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan14.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content04" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan04.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content08" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan08.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content07" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan07.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content05" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan05.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content15" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan15.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content09" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan09.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content33" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan33.jpg" alt="" ></a></div>
                 </div>
             </div>
         </div>
@@ -251,34 +251,34 @@ $(window).on('load', function() {
             <div class="cont_wrap">
               <div class="cont_w3">
                   <div class="mobile_wrap">
-                    <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176652-346a9dff-fd31-4a8a-8e0c-f66d22535c8e.jpg" alt="" /></p></a>
+                    <a href="https://house.newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176652-346a9dff-fd31-4a8a-8e0c-f66d22535c8e.jpg" alt="" ></p></a>
                   </div>
                 </div>
               <div class="cont_w3">
                 <div class="mobile_wrap">
-                  <a href="https://newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176782-9b466233-3d64-4a38-a00c-2decc3febb1c.jpg" alt="" /></p></a>
+                  <a href="https://newmedu.com/" target="_blank" ><p><img src="https://user-images.githubusercontent.com/107483293/177176782-9b466233-3d64-4a38-a00c-2decc3febb1c.jpg" alt="" ></p></a>
                 </div>
               </div>
               <div class="cont_w3">
                 <div class="mobile_wrap">
-                  <a href="http://www.newm.co.kr/new_mobile/main/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/197355bb-9047-4b02-b9a6-696f407ebc52" alt="" /></p></a>
+                  <a href="http://www.newm.co.kr/new_mobile/main/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/197355bb-9047-4b02-b9a6-696f407ebc52" alt="" ></p></a>
                 </div>
               </div>
             </div>
             <div class="cont_wrap">
               <div class="cont_w3">
                   <div class="mobile_wrap">
-                    <a href="https://m.gosischool.or.kr/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/a8e22315-c158-4439-a816-36288193a9d2" alt="" /></p></a>
+                    <a href="https://m.gosischool.or.kr/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/a8e22315-c158-4439-a816-36288193a9d2" alt="" ></p></a>
                   </div>
                 </div>
               <div class="cont_w3">
                 <div class="mobile_wrap">
-                  <a href="https://www.mdca.co.kr/lec/home/cyberlec/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/f7b83984-c75c-40e1-b4cb-6c499d991140" alt="" /></p></a>
+                  <a href="https://www.mdca.co.kr/lec/home/cyberlec/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/f7b83984-c75c-40e1-b4cb-6c499d991140" alt="" ></p></a>
                 </div>
               </div>
               <div class="cont_w3">
                 <div class="mobile_wrap">
-                  <a href="https://www.helphouse.biz/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/197355bb-9047-4b02-b9a6-696f407ebc52" alt="" /></p></a>
+                  <a href="https://www.helphouse.biz/" target="_blank" ><p><img src="https://github.com/areumi516/portfolio/assets/107483293/197355bb-9047-4b02-b9a6-696f407ebc52" alt="" ></p></a>
                 </div>
               </div>
             </div>
@@ -309,7 +309,7 @@ $(window).on('load', function() {
             </div>
             <div id="sub_tab3" class="tab_content">
                 <div class="tab_content_wrap">
-                  <img src="https://user-images.githubusercontent.com/107483293/177185203-7aab5c5d-2b67-4044-aa99-ed345a65e4f9.jpg" alt="" />
+                  <img src="https://user-images.githubusercontent.com/107483293/177185203-7aab5c5d-2b67-4044-aa99-ed345a65e4f9.jpg" alt="" >
                 </div>
             </div>
             <div id="sub_tab4" class="tab_content">
