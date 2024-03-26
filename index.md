@@ -65,6 +65,7 @@ footer {background: #ddd;}
 main {padding-top: 55px;}
 .main_container {height: 300px;}
 .section01 {background: #f2f2f2;}
+.section01 .cont_wrap + .cont_wrap {margin-top: 2%;}
 .section02 {}
 .section03 {background: #f0f0f0;}
 .section03 .cont_w3 {width: 30%; margin-left: 4%;}
@@ -198,12 +199,28 @@ $(window).on('load', function() {
                 <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://user-images.githubusercontent.com/107483293/177172757-05993e1f-76c5-4bf9-979c-af9ee0a78d8f.jpg" alt="" /></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/4fb7f617-0303-49f6-a0c8-7b72e5ec6696" alt="" /></p>
                 <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" /></p>
                 <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.co.kr &gt;</p><p class="btn_bg"></p></a>
+              </div>
+            </div>
+            <div class="cont_wrap">
+              <div class="cont_w4">
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/1008c418-ea05-4d0f-9a7a-4443086f9b08" alt="" /></p>
+                <a href="https://www.mdca.co.kr/lec/home/cyberlec/" target="_blank" class="btn_wh"><p class="btn_text">mdca.co.kr &gt;</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/63bf1350-6455-4b76-bc3d-3966d32ad5e2" alt="" /></p>
+                <a href="https://www.helphouse.biz/" target="_blank" class="btn_wh"><p class="btn_text">helphouse.biz &gt;</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/2614a3cb-a5e0-438d-91c8-4253c0ec6e6e" alt="" /></p>
+                <a href="javascript:;" class="btn_wh"><p class="btn_text">gosischool_new &gt;</p><p class="btn_bg"></p></a>
+              </div>
+              <div class="cont_w4">
               </div>
             </div>
         </div>
