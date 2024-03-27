@@ -118,7 +118,7 @@ $(document).ready( function() {
         autoplayTimeout: 5000,
         autoplaySpeed: 800,
         center: true,
-        items: 5,
+        items: 3,
         stagePadding: 0,
         loop: true,
         margin: 10,
@@ -128,11 +128,11 @@ $(document).ready( function() {
         paginationNumbers: true,
         dots: true,
         responsive: {
-           1200: {
-             items: 3
-           },
            1400: {
              items: 4
+           },
+           1600: {
+             items: 5
            }
         }
     });
