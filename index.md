@@ -195,14 +195,14 @@ $(window).on('load', function() {
                 <a href="https://house.newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">house.newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
-                <p><img src="https://user-images.githubusercontent.com/107483293/177172943-0322ea21-61c3-4ec9-b842-3884a1c6488e.jpg" alt="" ></p>
+                <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" ></p>
                 <a href="https://newmedu.com/" target="_blank" class="btn_wh"><p class="btn_text">newmedu.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">
                 <p><img src="https://github.com/areumi516/portfolio/assets/107483293/4fb7f617-0303-49f6-a0c8-7b72e5ec6696" alt="" ></p>
                 <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
-              <div class="cont_w4">
+              <div class="cont_w4">d
                 <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" ></p>
                 <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.co.kr &gt;</p><p class="btn_bg"></p></a>
               </div>
