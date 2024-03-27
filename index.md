@@ -126,7 +126,15 @@ $(document).ready( function() {
         navgation: true,
         pagination: true,
         paginationNumbers: true,
-        dots: true
+        dots: true,
+        responsive: {
+           1200: {
+             items: 3
+           },
+           1400: {
+             items: 4
+           }
+        }
     });
     $(".tab_container").each(function () {
       $(this).children(".tabs li:first").addClass("active");
