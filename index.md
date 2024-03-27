@@ -234,8 +234,11 @@ $(window).on('load', function() {
         </div>
     </div>
     <div id="section02" class="section02 section_inner">
+        <div class="section_cont">
+           <h3>이벤트페이지</h3>
+        </div>
         <div class="">
-            <h3>이벤트페이지</h3>
+            
             <div class="owl-wrapper section02-owl-wrapper">
                 <div class="section02-carousel owl-carousel owl-theme">
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" ></a></div>
