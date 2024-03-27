@@ -203,7 +203,7 @@ $(window).on('load', function() {
                 <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
               <div class="cont_w4">d
-                <p><img src="https://user-images.githubusercontent.com/107483293/177173138-3ee790cc-8282-4724-a912-7e83d7d5513e.jpg" alt="" ></p>
+                <p><img src="https://github.com/areumi516/portfolio/assets/107483293/6494c0ff-ad20-43f3-b793-f08b29126f95" alt="" ></p>
                 <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.co.kr &gt;</p><p class="btn_bg"></p></a>
               </div>
             </div>
@@ -233,7 +233,7 @@ $(window).on('load', function() {
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" ></a></div>
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content04" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event02.jpg" alt="" ></a></div>
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content01" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event03.jpg" alt="" ></a></div>
-                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content22" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan14.jpg" alt="" ></a></div>
+                  <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content22" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan14_02.jpg" alt="" ></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content04" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan04.jpg" alt="" ></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content08" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan08.jpg" alt="" ></a></div>
                   <div class="item"><a href="http://www.gosischool.or.kr/lec/home/cyberlec/new_lanpage.php?q=content07" target="_blank"><img src="https://www.gosischool.or.kr/img/new_page/main_new/thumb_lan07.jpg" alt="" ></a></div>
