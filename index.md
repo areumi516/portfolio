@@ -121,18 +121,22 @@ $(document).ready( function() {
         items: 3,
         stagePadding: 0,
         loop: true,
-        margin: 10,
+        margin: 25,
         nav: false,
         navgation: true,
         pagination: true,
         paginationNumbers: true,
         dots: true,
         responsive: {
-           1400: {
-             items: 4
+           1200: {
+             items: 3.3,
+             margin: 15,
+           },
+           1445: {
+             items: 4,
            },
            1600: {
-             items: 5
+             items: 4.4
            }
         }
     });
