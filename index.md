@@ -66,7 +66,7 @@ main {padding-top: 55px;}
 .main_container {height: 300px;}
 .section01 {background: #f2f2f2;}
 .section01 .cont_wrap + .cont_wrap {margin-top: 2%;}
-.section02 {}
+.section02 h3 {width: 1200px; margin: 0 auto;}
 .section03 {background: #f0f0f0;}
 .section03 .cont_w3 {width: 30%; margin-left: 4%;}
 .section03 .cont_w3:first-child {margin-left: 0;}
