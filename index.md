@@ -138,7 +138,8 @@ $(document).ready( function() {
            1600: {
              items: 4.4
            }
-        }
+        },
+        onTranslated: item02
     });
     $(".tab_container").each(function () {
       $(this).children(".tabs li:first").addClass("active");
@@ -171,6 +172,11 @@ $(window).scroll( function() {
 $(window).on('load', function() {
     $(".section_main video").trigger("play");
 });
+ function item02(event) {
+    var section02 = $('.section02-carousel');
+    section02.find('.owl-item a').removeClass('on');
+    section02.find('.active.center').find('a').addClass('on');
+}
 </script>
 </head>
 <body>
