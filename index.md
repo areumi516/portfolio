@@ -44,7 +44,7 @@ table caption {width: 0; height: 0; font-size: 0;}
 .owl-nav .owl-prev, .owl-nav .owl-next{ display:inline-block; } 
 .owl-dots .owl-dot {display: inline-block;} 
 .owl-controls .owl-page span.owl-numbers {display: block; width: auto; height: auto; font-size: 20px;}    
-header, footer {min-width: 1100px;}
+header, footer, main {min-width: 1100px;}
 footer {text-align: center;}
 footer .section_inner {padding: 50px 0;}
 footer p, footer span {font-size: 12px; color: #606060;}
