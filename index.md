@@ -118,7 +118,7 @@ $(document).ready( function() {
         autoplayTimeout: 5000,
         autoplaySpeed: 800,
         center: true,
-        items: 3,
+        items: 5,
         stagePadding: 0,
         loop: true,
         margin: 10,
@@ -226,7 +226,7 @@ $(window).on('load', function() {
         </div>
     </div>
     <div id="section02" class="section02 section_inner">
-        <div class="section_cont">
+        <div class="">
             <h3>이벤트페이지</h3>
             <div class="owl-wrapper section02-owl-wrapper">
                 <div class="section02-carousel owl-carousel owl-theme">
