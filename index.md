@@ -127,19 +127,19 @@ $(document).ready( function() {
         pagination: true,
         paginationNumbers: true,
         dots: true,
-        responsive: {
-           1200: {
-             items: 3.3,
-             margin: 15,
-           },
-           1445: {
-             items: 4,
-           },
-           1600: {
-             items: 4.4
-           }
-        },
-        onTranslated: item02
+        // responsive: {
+        //    1200: {
+        //      items: 3.3,
+        //      margin: 15,
+        //    },
+        //    1445: {
+        //      items: 4,
+        //    },
+        //    1600: {
+        //      items: 4.4
+        //    }
+        // },
+        // onTranslated: item02
     });
     $(".tab_container").each(function () {
       $(this).children(".tabs li:first").addClass("active");
@@ -220,7 +220,7 @@ $(window).on('load', function() {
                 <p><img src="https://github.com/areumi516/portfolio/assets/107483293/4fb7f617-0303-49f6-a0c8-7b72e5ec6696" alt="" ></p>
                 <a href="http://www.gosischool.or.kr/" target="_blank" class="btn_wh"><p class="btn_text">gosischool.com &gt;</p><p class="btn_bg"></p></a>
               </div>
-              <div class="cont_w4">d
+              <div class="cont_w4">
                 <p><img src="https://github.com/areumi516/portfolio/assets/107483293/6494c0ff-ad20-43f3-b793-f08b29126f95" alt="" ></p>
                 <a href="http://www.newm.co.kr/new2/main/index.php" target="_blank" class="btn_wh"><p class="btn_text">newm.co.kr &gt;</p><p class="btn_bg"></p></a>
               </div>
@@ -245,10 +245,7 @@ $(window).on('load', function() {
     </div>
     <div id="section02" class="section02 section_inner">
         <div class="section_cont">
-           <h3>이벤트페이지</h3>
-        </div>
-        <div class="">
-            
+           <h3>이벤트페이지</h3>           
             <div class="owl-wrapper section02-owl-wrapper">
                 <div class="section02-carousel owl-carousel owl-theme">
                   <div class="item"><a href="https://house.newmedu.com/lanpage/content03" target="_blank"><img src="https://newmedu.com/common/img/edu/section02_event01.jpg" alt="" ></a></div>
