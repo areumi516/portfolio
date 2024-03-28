@@ -316,7 +316,7 @@ $(window).on('load', function() {
             </div>
             <div id="sub_tab1" class="tab_content">
                 <div class="tab_content_wrap">
-                  <img src="https://user-images.githubusercontent.com/107483293/177346746-7dd8aa3e-14f6-44f3-9617-7c83ecf010a7.jpg" alt="">
+                  <img src="https://github.com/areumi516/portfolio/assets/107483293/7e014012-fb89-4e08-ab19-4fb85e4f5653" alt="">
                 </div>
             </div>
             <div id="sub_tab2" class="tab_content">
