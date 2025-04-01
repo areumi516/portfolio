@@ -93,6 +93,7 @@ main {padding-top: 55px;}
 .ul_rmenu > li:first-child {border-top: none;}
 .ul_rmenu > li > a {display: inline-block; width: 100%; line-height: 2; text-align: center; color: #333;}
 .ul_rmenu > li > a:hover {opacity: 1;}
+.section05 {}
 </style>
 <script>
 $(document).ready( function() {
